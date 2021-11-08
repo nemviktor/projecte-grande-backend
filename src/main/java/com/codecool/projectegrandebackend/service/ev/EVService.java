@@ -29,7 +29,7 @@ public class EVService {
     private Set<EV> evList;
     @Value("${REACT_APP_OPENCHARGERMAP}")
     private String REACT_APP_OPENCHARGERMAP;
-    private String url = "https://api.openchargemap.io/v3/poi/?output=json&latitude=47.497913&longitude=19.040236&dustance=10";
+    private String url = "https://api.openchargemap.io/v3/poi/?output=json&countrycode=HU&maxresults=100";
 
 
     public String setUrl(float longitude, float latitude){
